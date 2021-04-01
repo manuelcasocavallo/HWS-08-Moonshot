@@ -11,6 +11,8 @@
 		FA95B1142615FFAC004E1D95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95B1132615FFAC004E1D95 /* ContentView.swift */; };
 		FA95B1162615FFAD004E1D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA95B1152615FFAD004E1D95 /* Assets.xcassets */; };
 		FA95B1192615FFAD004E1D95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA95B1182615FFAD004E1D95 /* Preview Assets.xcassets */; };
+		FA95B1232615FFF7004E1D95 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = FA95B1212615FFF7004E1D95 /* astronauts.json */; };
+		FA95B1242615FFF7004E1D95 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = FA95B1222615FFF7004E1D95 /* missions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FA95B1152615FFAD004E1D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA95B1182615FFAD004E1D95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA95B11A2615FFAD004E1D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA95B1212615FFF7004E1D95 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		FA95B1222615FFF7004E1D95 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				FA95B1132615FFAC004E1D95 /* ContentView.swift */,
 				FA95B1152615FFAD004E1D95 /* Assets.xcassets */,
 				FA95B11A2615FFAD004E1D95 /* Info.plist */,
+				FA95B1212615FFF7004E1D95 /* astronauts.json */,
+				FA95B1222615FFF7004E1D95 /* missions.json */,
 				FA95B1172615FFAD004E1D95 /* Preview Content */,
 			);
 			path = "HWS-08-Moonshot";
@@ -126,7 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA95B1232615FFF7004E1D95 /* astronauts.json in Resources */,
 				FA95B1192615FFAD004E1D95 /* Preview Assets.xcassets in Resources */,
+				FA95B1242615FFF7004E1D95 /* missions.json in Resources */,
 				FA95B1162615FFAD004E1D95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
